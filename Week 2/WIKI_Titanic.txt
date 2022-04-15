@@ -1,0 +1,72 @@
+What Libs do I need ?
+
+# data visualization
+- import seaborn as sns
+- %matplotlib inline
+- from matplotlib import pyplot as plt
+- from matplotlib import style
+
+# data processing
+- import pandas as pd 
+
+# linear algebra
+- import numpy as np 
+
+# Algorithms
+- from sklearn import linear_model
+- from sklearn.linear_model import LogisticRegression
+- from sklearn.ensemble import RandomForestClassifier
+- from sklearn.linear_model import Perceptron
+- from sklearn.linear_model import SGDClassifier
+- from sklearn.tree import DecisionTreeClassifier
+- from sklearn.neighbors import KNeighborsClassifier
+- from sklearn.svm import SVC, LinearSVC
+- from sklearn.naive_bayes import GaussianNB
+
+# Show images
+- from PIL import Image
+
+1_Data_Visualisation
+
+## Valuable commands:
+
+- pd.read_csv --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+- .info() --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html
+- .describe() --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+- .head()--> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html
+- pd.concat --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html
+- sns.FacetGrid --> https://seaborn.pydata.org/tutorial/axis_grids.html
+- .loc[] --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html
+- .value_counts --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.value_counts.html
+
+2_Data_Preprocessing
+
+## Valuable commands:
+
+- .drop --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html
+- for loops --> https://www.w3schools.com/python/python_for_loops.asp
+- np.isnan() --> https://numpy.org/doc/stable/reference/generated/numpy.isnan.html
+- .fillna() --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html
+- pd.qcut() --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.qcut.html
+- .value_counts --> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.value_counts.html
+
+2_Machine_Learning
+
+## Valuable commands:
+
+**General:**
+- .fit() --> same Link as "DecisionTreeClassifier()"
+- .predict() --> same Link as "DecisionTreeClassifier()"
+- .score() --> [Use this LINK to the dokumentation](https://www.kaggle.com/getting-started/27261)
+
+**ML Algorithms:**
+- DecisionTreeClassifier() -->https://scikit-learn.org/stable/modules/tree.html
+- LinearSVC() --> https://scikit-learn.org/stable/modules/svm.html
+- Perceptron() --> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Perceptron.html#sklearn.linear_model.Perceptron
+- GaussianNB() --> https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
+- KNeighborsClassifier() --> https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+- LogisticRegression() --> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+- RandomForestClassifier() --> https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+- linear_model.SGDClassifier() --> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html
+
+
